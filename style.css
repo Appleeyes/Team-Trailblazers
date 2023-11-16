@@ -560,6 +560,90 @@ img {
 }
 
 /* TEAM SECTION ENDS HERE */
+
+/*SUBSCRIPTION AND NEWSLETTER SECTION */
+.ima {
+  max-width: 50%; 
+  padding: 70px;
+  display: flex;
+  width: 421px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+}
+.ima img { 
+  margin-left: 200px;    
+}
+.para-1 {
+  margin-top: 50px;
+  word-spacing: 1px;
+  color: #a09ea3;
+  text-align: center;
+  font-family: Ageo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.header-2 {
+  top: 80px;
+  font-size: 40px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-align: center;
+  color: #0B1B35;
+  text-align: center;
+  font-family: Ageo;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.5px; /* 54.808% */
+}
+.section-2 {
+  display: flex;
+}
+.side-2 {
+  display: block;  
+}
+.para-2 {
+  color: #000;
+  font-size: 18px; 
+  margin-top: 120px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  margin-left: 45px;
+}
+form input {
+  width: 600px;
+  height: 30px;
+  margin: 40px auto;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 50px;
+  border-radius: 30px;
+  border: 2px;
+  background: #FFF;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+}
+.btn {
+  width: 630px;
+  height: 45px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 10px;
+  background: #F60;   
+}
+.sub-btn {
+  color: #f6efef;
+  font-family: Ageo;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
 footer {
   padding: 20px;
   text-align: center;
