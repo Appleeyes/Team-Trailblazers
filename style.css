@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   width: 100%;
   padding: 2% 10%;
@@ -45,6 +46,7 @@ nav {
 img {
   width: 200px;
 }
+
 /* stopped here for header */
 
 /*FIRST SECTION START HERE*/
@@ -54,9 +56,11 @@ img {
   gap: 4rem;
   margin-top: 8rem;
 }
+
 .text-container {
   font-family: "Ageo Personal Use", sans-serif;
 }
+
 .text-container h1 {
   color: #0b1b35;
   font-size: 70px;
@@ -65,6 +69,7 @@ img {
   word-spacing: 0.5rem;
   margin-bottom: 2rem;
 }
+
 .sub-text {
   font-size: 23px;
   font-weight: 500;
@@ -76,6 +81,7 @@ img {
   display: flex;
   gap: 30px;
 }
+
 .button-container button {
   color: white;
   border-radius: 10px;
@@ -85,11 +91,13 @@ img {
   background-color: #f60;
   border: none;
 }
+
 .learn-more-container {
   display: flex;
   gap: 10px;
   align-items: center;
 }
+
 .learn-more-icon {
   width: 50px;
   height: 50px;
@@ -99,16 +107,19 @@ img {
   font-size: 18px;
   font-weight: 500;
 }
+
 .image-container {
   position: relative;
   display: flex;
   top: -80px;
   left: 100px;
 }
+
 .chart-icon {
   width: 40px;
   height: 40.01px;
 }
+
 .chartbox {
   display: flex;
   align-items: center;
@@ -129,10 +140,12 @@ img {
     0px 100px 80px 0px rgba(0, 0, 0, 0.07);
   border-radius: 12px;
 }
+
 .review-text {
   display: flex;
   gap: 10px;
 }
+
 .services,
 .rating {
   font-size: 14px;
@@ -142,6 +155,7 @@ img {
   font-size: 14px;
   color: #8a898e;
 }
+
 .review-container {
   width: 275px;
   height: 73px;
@@ -159,30 +173,36 @@ img {
     0px 100px 80px 0px rgba(0, 0, 0, 0.07);
   border-radius: 12px;
 }
+
 .star-icon {
   width: 14.169px;
   height: 13.459px;
 }
+
 .services {
   font-size: 16px;
   font-weight: 500;
   padding-top: 8px;
   margin-bottom: 2px;
 }
+
 .rating {
   font-size: 14px;
 }
+
 .reviews {
   font-size: 14px;
   color: #8a898e;
   font-weight: 500;
 }
+
 .frame {
   position: absolute;
   top: 200px;
   z-index: -1;
   left: 30px;
 }
+
 .man {
   width: 100%;
 }
@@ -193,6 +213,7 @@ img {
   z-index: -1;
   bottom: 480px;
 }
+
 /*FIRST SECTION ENDS HERE*/
 
 /* Vison and Goal Section */
@@ -255,6 +276,7 @@ img {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
 .box {
   width: 400px;
   border-radius: 28px;
@@ -293,19 +315,22 @@ img {
 .card {
   text-align: center;
 }
+
 /*VISION AND GOAL SECTION ENDS HERE*/
 
 /*PLAY SECTION START HERE*/
 .video-section {
   display: flex;
   gap: 7rem;
-  margin-top: 100px;
+  margin-top: 150px;
   width: 100%;
 }
+
 .video-text {
   width: 40%;
   margin-top: 40px;
 }
+
 .text-heading {
   font-size: 22px;
   font-family: DM Sans;
@@ -313,6 +338,7 @@ img {
   font-weight: 500;
   line-height: 32px;
 }
+
 .video-text p {
   color: rgba(21, 20, 57, 0.4);
   font-family: DM Sans;
@@ -322,10 +348,12 @@ img {
   margin-bottom: 120px;
   margin-top: 40px;
 }
+
 .video-container {
   position: relative;
   width: 50%;
 }
+
 .video-container-image {
   width: 100%;
 }
@@ -337,6 +365,7 @@ img {
   width: 84px;
   height: 84px;
 }
+
 .explore-button {
   font-family: DM Sans;
   font-size: 16px;
@@ -349,13 +378,95 @@ img {
   border-radius: 100px;
   border: 2px solid #ebeaed;
 }
+
 /*PLAY SECTION ENDS HERE*/
+
+/* Testimonial Start */
+.testimonial {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.testimonial p {
+  font-family: "Ageo Personal Use", sans-serif;
+  margin-top: 150px;
+  line-height: 28.5px;
+  letter-spacing: 6.3px;
+  color: #8a898e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.5px;
+  letter-spacing: 6.3px;
+}
+
+.testimonial h2 {
+  font-size: 52px;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  font-family: "Ageo Personal Use", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.5px;
+}
+
+.testimonies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimony p {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.contents {
+  flex: 0 1 calc(45% - 10px);
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.image img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.testimony {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.testimony span {
+  font-family: DM Sans;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* Testimonial Ends */
 
 /* TEAM SECTION STARTS HERE */
 .teams {
   width: 100%;
   margin-top: 100px;
 }
+
 .teams p {
   color: #8a898e;
   text-align: center;
@@ -365,6 +476,7 @@ img {
   letter-spacing: 6.3px;
   text-transform: uppercase;
 }
+
 .teams h2 {
   text-align: center;
   color: #0b1b35;
@@ -372,6 +484,7 @@ img {
   font-size: 52px;
   font-weight: 700;
 }
+
 .card-container {
   display: flex;
   justify-content: center;
