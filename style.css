@@ -186,6 +186,7 @@ img {
 .man {
   width: 100%;
 }
+
 .frame-2 {
   position: absolute;
   right: 105px;
@@ -197,17 +198,17 @@ img {
 /* Vison and Goal Section */
 .wrapper {
   padding: 5px;
-  max-width: 960px;
-  width: 95%;
   /* margin: 50px auto; */
   background-color: white;
   color: black;
+  margin-top: -200px;
+  text-align: center;
 }
 
-.vision-section {
+/* .vision-section {
   text-align: center;
   font-size: 21px;
-}
+} */
 
 /* .columns {
     display: flex;
@@ -263,10 +264,11 @@ img {
   line-height: 29px;
   letter-spacing: 0em;
   color: #0b1b35;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .box {
-  width: 352px;
-  height: 508px;
+  width: 400px;
   border-radius: 28px;
   background: #ffffff;
   box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px #00000005,
@@ -275,48 +277,33 @@ img {
     0px 22.3363094329834px 17.869047164916992px 0px #0000000b,
     0px 41.777610778808594px 33.422088623046875px 0px #0000000d,
     0px 100px 80px 0px #00000012;
+    padding: 50px;
 }
 
 .intro {
-  width: 247px;
-  height: 29px;
   font-size: 30px;
   font-weight: 700;
   line-height: 29px;
   letter-spacing: 0px;
-  text-align: center;
+  margin-bottom: 20px;
 }
 
 .text {
-  width: 270px;
-  height: 187px;
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0px;
-  text-align: center;
+  margin-bottom: 20px;
 }
 
-.icon {
+.icon img {
   width: 76.47px;
   height: 76.47px;
-  margin: 30px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box-2 {
-  margin: 0 40px;
+  margin-bottom: 20px;
 }
 
 .card {
-  width: 270px;
-  height: 315px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+text-align: center;
 }
 
 
