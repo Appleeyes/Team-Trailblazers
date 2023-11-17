@@ -205,18 +205,6 @@ img {
   text-align: center;
 }
 
-/* .vision-section {
-  text-align: center;
-  font-size: 21px;
-} */
-
-/* .columns {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px 0;
-  } */
-
 #vision-container {
   display: flex;
   justify-content: space-between;
@@ -277,7 +265,7 @@ img {
     0px 22.3363094329834px 17.869047164916992px 0px #0000000b,
     0px 41.777610778808594px 33.422088623046875px 0px #0000000d,
     0px 100px 80px 0px #00000012;
-    padding: 50px;
+  padding: 50px;
 }
 
 .intro {
@@ -303,9 +291,52 @@ img {
 }
 
 .card {
-text-align: center;
+  text-align: center;
+}
+/*VISION AND GOAL SECTION ENDS HERE*/
+
+/*PLAY SECTION START HERE*/
+.video-section {
+  display: flex;
+  gap: 7rem;
+}
+.text-heading {
+  font-size: 22px;
+  font-family: DM Sans;
+  color: #1e0e62;
+  font-weight: 500;
+  line-height: 32px;
+}
+.video-text p {
+  color: rgba(21, 20, 57, 0.4);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 100px;
+}
+.video-container {
+  position: relative;
 }
 
+.video-container-icon {
+  position: absolute;
+  bottom: 140px;
+  left: 45%;
+}
+.explore-button {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #1e0e62;
+  background-color: white;
+  width: 132.68px;
+  height: 48.247px;
+  border-radius: 100px;
+  border: 2px solid #ebeaed;
+}
+/*PLAY SECTION ENDS HERE*/
 
 footer {
   padding: 20px;
