@@ -55,7 +55,7 @@ img {
   margin-top: 8rem;
 }
 .text-container {
-  font-family: 'Ageo Personal Use', sans-serif;
+  font-family: "Ageo Personal Use", sans-serif;
 }
 .text-container h1 {
   color: #0b1b35;
@@ -353,9 +353,10 @@ img {
 
 /* TEAM SECTION STARTS HERE */
 .teams {
-  padding: 0 4rem;
+  width: 100%;
+  margin-top: 100px;
 }
-.teams h4 {
+.teams p {
   color: #8a898e;
   text-align: center;
   font-family: Ageo;
@@ -376,24 +377,39 @@ img {
   justify-content: center;
   gap: 3rem;
 }
-.cards{
+
+.cards {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5rem;
-  /* padding: 2rem; */
-  border: 1px solid grey;
-  border-radius: 5px;
-}
-.card-desc {
   text-align: center;
+  width: 400px;
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+.card-info {
+  border-right: 1px solid rgba(128, 128, 128, 0.2);
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 5px 5px 0 0;
+  padding: 35px;
+}
+
+.cards img {
+  width: 80px;
+  height: 80px;
+}
+
+.card-desc {
   padding: 1rem;
 }
+
 .card-desc h3 {
   color: #1e0e62;
   margin-top: 1rem;
 }
+
 .card-desc p {
   color: #8a898e;
   font-family: DM Sans;
@@ -403,17 +419,33 @@ img {
   text-transform: uppercase;
   margin-top: 1rem;
 }
-.social-icons{
-  border-top: 1px solid #8a898e;
-  
-}
-.social-icons svg{
-  padding: 1rem;
-}
-.svg-1{
-  border-left: 1px solid #8a898e;
 
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 0 0 5px 5px;
+  margin: auto;
 }
+
+.social-icons svg {
+  width: 20px;
+  height: 20px;
+}
+
+.social {
+  padding: 20px;
+  border-right: 1px solid rgba(128, 128, 128, 0.2);
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.social:last-child {
+  border-right: none;
+}
+
 /* TEAM SECTION ENDS HERE */
 footer {
   padding: 20px;
