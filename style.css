@@ -562,88 +562,90 @@ img {
 /* TEAM SECTION ENDS HERE */
 
 /*SUBSCRIPTION AND NEWSLETTER SECTION */
-.ima {
-  max-width: 50%; 
-  padding: 70px;
-  display: flex;
-  width: 421px;
-  height: 350px;
-  justify-content: center;
-  align-items: center;
-}
-.ima img { 
-  margin-left: 200px;    
-}
-.para-1 {
-  margin-top: 50px;
-  word-spacing: 1px;
-  color: #a09ea3;
+.newsletter {
+  width: 100%;
   text-align: center;
-  font-family: Ageo;
-  font-size: 12px;
+}
+.envelop {
+  width: 40%;
+}
+.envelop img { 
+  width: 500px;
+  height: 400px;    
+}
+.newsletter p {
+  margin-top: 100px;
+  color: #a09ea3;
+  font-family: "Ageo Personal Use", sans-serif;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 5px;
+  letter-spacing: 6.2px;
 }
-.header-2 {
-  top: 80px;
-  font-size: 40px;
-  letter-spacing: 1px;
-  word-spacing: 1px;
-  text-align: center;
+.newsletter h1 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 52px;
   color: #0B1B35;
-  text-align: center;
-  font-family: Ageo;
+  font-family: "Ageo Personal Use", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 28.5px; /* 54.808% */
 }
-.section-2 {
+.letter {
   display: flex;
+  text-align: left;
+  margin-top: 50px;
 }
-.side-2 {
-  display: block;  
+.letter-content {
+  width: 50%;
+  margin-left: 30px;
+  font-size: 18px;
+  margin-top: 50px;  
 }
-.para-2 {
+/*.letter-content span {
   color: #000;
   font-size: 18px; 
   margin-top: 120px;
   word-spacing: 1px;
   letter-spacing: 1px;
   margin-left: 45px;
-}
-form input {
-  width: 600px;
-  height: 30px;
-  margin: 40px auto;
-  padding: 15px;
-  border-radius: 20px;
-  margin-top: 40px;
-  margin-left: 50px;
+}*/
+input {
+  width: 100%;
+  padding: 20px;
   border-radius: 30px;
-  border: 2px;
-  background: #FFF;
-  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 19px 20px 0px rgba(0, 0, 0, 0.6);
 }
-.btn {
-  width: 630px;
-  height: 45px;
-  margin: 20px auto;
+input::placeholder {
+  font-weight: bold;
+  color: #000;
+  padding-left: 50px;
+}
+.newsletter button {
+  width: 100%;
   padding: 15px;
-  border-radius: 20px;
+  border-radius: 5px;
   margin-top: 5px;
-  margin-left: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.5px;
   border: none;
-  border-radius: 10px;
-  background: #F60;   
+  background: #F60; 
+  color: #fff;  
+  font-family: "Ageo Personal Use", sans-serif; 
 }
-.sub-btn {
-  color: #f6efef;
-  font-family: Ageo;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 1px;
+.newsletter span {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 28.5px;
+  font-family: "Roboto",sans-serif;
+
 }
+
 footer {
   padding: 20px;
   text-align: center;
