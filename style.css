@@ -300,6 +300,7 @@ img {
   display: flex;
   gap: 7rem;
   margin-top: 100px;
+  margin-bottom: 150px;
   width: 100%;
 }
 .video-text {
@@ -348,6 +349,16 @@ img {
   height: 48.247px;
   border-radius: 100px;
   border: 2px solid #ebeaed;
+  transition: all .50s ease;
+}
+.explore-button:hover {
+  background-color:#f7718e ;
+  color: white;
+  transform: translate(-3px);
+}
+.explore-button:active {
+  background-color: white;
+  color: #1e0e62;
 }
 /*PLAY SECTION ENDS HERE*/
 
