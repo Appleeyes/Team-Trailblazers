@@ -299,6 +299,12 @@ img {
 .video-section {
   display: flex;
   gap: 7rem;
+  margin-top: 100px;
+  width: 100%;
+}
+.video-text {
+  width: 40%;
+  margin-top: 40px;
 }
 .text-heading {
   font-size: 22px;
@@ -310,19 +316,26 @@ img {
 .video-text p {
   color: rgba(21, 20, 57, 0.4);
   font-family: DM Sans;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
+  margin-top: 40px;
 }
 .video-container {
   position: relative;
+  width: 50%;
+}
+.video-container-image {
+  width: 100%;
 }
 
 .video-container-icon {
   position: absolute;
   bottom: 140px;
   left: 45%;
+  width: 84px;
+  height: 84px;
 }
 .explore-button {
   font-family: DM Sans;
