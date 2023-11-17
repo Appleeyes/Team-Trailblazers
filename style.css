@@ -351,6 +351,70 @@ img {
 }
 /*PLAY SECTION ENDS HERE*/
 
+/* TEAM SECTION STARTS HERE */
+.teams {
+  padding: 0 4rem;
+}
+.teams h4 {
+  color: #8a898e;
+  text-align: center;
+  font-family: Ageo;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6.3px;
+  text-transform: uppercase;
+}
+.teams h2 {
+  text-align: center;
+  color: #0b1b35;
+  font-family: Ageo;
+  font-size: 52px;
+  font-weight: 700;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  /* padding: 2rem; */
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.card-desc {
+  text-align: center;
+  padding: 1rem;
+}
+.card-desc h3 {
+  color: #1e0e62;
+  margin-top: 1rem;
+}
+.card-desc p {
+  color: #8a898e;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+.social-icons{
+  border-top: 1px solid #8a898e;
+  
+}
+.social-icons svg{
+  padding: 1rem;
+}
+.svg-1{
+  border-left: 1px solid #8a898e;
+
+}
+/* TEAM SECTION ENDS HERE */
 footer {
   padding: 20px;
   text-align: center;
