@@ -9,8 +9,7 @@ body {
   padding: 2% 10%;
 }
 
-/*started here for the header */
-
+/* Header starts */
 ul {
   list-style: none;
   display: flex;
@@ -29,7 +28,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover{
+li a:hover {
   font-weight: 900;
 }
 
@@ -52,11 +51,9 @@ nav {
 img {
   width: 200px;
 }
+/* Header ends */
 
-/* stopped here for header */
-
-/*FIRST SECTION START HERE*/
-
+/* Hero Section starts */
 .first-section {
   display: flex;
   gap: 4rem;
@@ -219,13 +216,11 @@ img {
   z-index: -1;
   bottom: 480px;
 }
+/* Hero Section ends */
 
-/*FIRST SECTION ENDS HERE*/
-
-/* Vison and Goal Section */
+/* Vison and Goal Section starts*/
 .wrapper {
   padding: 5px;
-  /* margin: 50px auto; */
   background-color: white;
   color: black;
   margin-top: -200px;
@@ -237,7 +232,6 @@ img {
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
-  /* margin: 5px 0; */
   padding: 10px;
   background-color: white;
 }
@@ -321,10 +315,9 @@ img {
 .card {
   text-align: center;
 }
+/*Vision and Goal Section ends*/
 
-/*VISION AND GOAL SECTION ENDS HERE*/
-
-/*PLAY SECTION START HERE*/
+/*Play Section starts*/
 .video-section {
   display: flex;
   gap: 7rem;
@@ -384,10 +377,9 @@ img {
   border-radius: 100px;
   border: 2px solid #ebeaed;
 }
+/*Play Section ends*/
 
-/*PLAY SECTION ENDS HERE*/
-
-/* Testimonial Start */
+/* Testimonial Section starts */
 .testimonial {
   width: 70%;
   text-align: center;
@@ -464,10 +456,9 @@ img {
   font-weight: 500;
   line-height: 28px;
 }
+/* Testimonial Section ends */
 
-/* Testimonial Ends */
-
-/* TEAM SECTION STARTS HERE */
+/* Teasm Section starts */
 .teams {
   width: 100%;
   margin-top: 100px;
@@ -564,22 +555,24 @@ img {
 .social:last-child {
   border-right: none;
 }
+/* Team Section ends */
 
-/* TEAM SECTION ENDS HERE */
-
-/*SUBSCRIPTION AND NEWSLETTER SECTION */
+/*Newsletter Section starts */
 .newsletter {
   width: 100%;
   text-align: center;
   margin-bottom: 100px;
 }
+
 .envelop {
   width: 40%;
 }
-.envelop img { 
+
+.envelop img {
   width: 500px;
-  height: 400px;    
+  height: 400px;
 }
+
 .newsletter p {
   margin-top: 100px;
   color: #a09ea3;
@@ -589,35 +582,31 @@ img {
   font-weight: 700;
   letter-spacing: 6.2px;
 }
+
 .newsletter h1 {
   margin-top: 10px;
   margin-bottom: 50px;
   font-size: 52px;
-  color: #0B1B35;
+  color: #0b1b35;
   font-family: "Ageo Personal Use", sans-serif;
   font-style: normal;
   font-weight: 700;
-  line-height: 28.5px; /* 54.808% */
+  line-height: 28.5px;
 }
+
 .letter {
   display: flex;
   text-align: left;
   margin-top: 50px;
 }
+
 .letter-content {
   width: 50%;
   margin-left: 30px;
   font-size: 18px;
-  margin-top: 50px;  
+  margin-top: 50px;
 }
-/*.letter-content span {
-  color: #000;
-  font-size: 18px; 
-  margin-top: 120px;
-  word-spacing: 1px;
-  letter-spacing: 1px;
-  margin-left: 45px;
-}*/
+
 input {
   width: 100%;
   padding: 20px;
@@ -627,12 +616,14 @@ input {
   border: 1px solid #ccc;
   box-shadow: 1px 19px 20px 0px rgba(0, 0, 0, 0.6);
 }
+
 input::placeholder {
   font-weight: bold;
   color: #000;
   padding-left: 50px;
   font-size: 20px;
 }
+
 .newsletter button {
   width: 100%;
   padding: 15px;
@@ -642,29 +633,31 @@ input::placeholder {
   font-weight: 500;
   line-height: 28.5px;
   border: none;
-  background: #F60; 
-  color: #fff;  
-  font-family: "Ageo Personal Use", sans-serif; 
+  background: #f60;
+  color: #fff;
+  font-family: "Ageo Personal Use", sans-serif;
 }
+
 .newsletter span {
   font-size: 18px;
   font-weight: 400px;
   line-height: 28.5px;
-  font-family: "Roboto",sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
+/* Newsletter Section ends */
 
+/* Footer starts */
 footer {
   padding: 20px;
   text-align: center;
 }
 
-.first-1{
+.first-1 {
   display: flex;
   justify-content: space-between;
 }
 
-footer img{
+footer img {
   margin-right: 100px;
 }
 
@@ -683,16 +676,16 @@ footer ul li {
 }
 
 footer a {
-color: var(--colors-heading, #1E0E62);
+  color: var(--colors-heading, #1e0e62);
   text-decoration: none;
   font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 26px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
 }
 
-.underline{
+.underline {
   border-bottom: 3px solid rgba(128, 128, 128, 0.2);
   width: 100%;
   height: 0;
@@ -700,12 +693,13 @@ line-height: 26px;
   margin-top: 50px;
 }
 
-footer p{
+footer p {
   text-align: left;
   color: rgba(128, 128, 128, 0.8);
   font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
+/* Footer ends */
